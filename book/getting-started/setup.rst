@@ -106,14 +106,15 @@ Templates
 ---------
 All created pages are based on templates, which have also to be configured.
 So you need some templates to add pages to the system. Therfore you have to add
-some XML-files to the specified folder. These files describe the structur of
-the pages, i.e. what kind of content the pages can consist of. For the start
-you can just copy some of the delivered files:
+some XML-files to the specified folder. These files describe the structure of
+the pages, i.e. what kind of content the pages can consist of. Same effects for
+Snippets. For the start you can just copy some of the delivered files:
 
 .. code-block:: bash
     
     cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml
     cp app/Resources/pages/overview.xml.dist app/Resources/pages/overview.xml
+    cp app/Resources/snippets/default.xml.dist app/Resources/snippets/default.xml
 
 With this configuration you will be able to create default pages, just
 containg the most basic content types (a title, an URL, links to other pages,
